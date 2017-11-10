@@ -1,0 +1,56 @@
+Dependencies for Project 'CAN', Target 'STM32F103 Flash': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x559D2916)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x--pd "__UVISION_VERSION SETA 523"-o .\flash\startup_stm32f10x_md.o --depend .\flash\startup_stm32f10x_md.d)
+F (.\system_stm32f10x.c)(0x559D2916)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="523" -DSTM32F10X_MD -D__USE_LCD-o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x559D2740)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x559D2740)
+F (.\LCD_4bit.c)(0x559D2916)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="523" -DSTM32F10X_MD -D__USE_LCD-o .\flash\lcd_4bit.o --omf_browse .\flash\lcd_4bit.crf --depend .\flash\lcd_4bit.d)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x559D2740)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x559D2740)
+F (.\ADC.c)(0x559D2916)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="523" -DSTM32F10X_MD -D__USE_LCD-o .\flash\adc.o --omf_browse .\flash\adc.crf --depend .\flash\adc.d)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x559D2740)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x559D2740)
+I (ADC.h)(0x559D2916)
+F (.\CAN.c)(0x559D2916)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="523" -DSTM32F10X_MD -D__USE_LCD-o .\flash\can.o --omf_browse .\flash\can.crf --depend .\flash\can.d)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x559D2740)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x559D2740)
+I (CAN.h)(0x559D2916)
+F (.\API_CAN.c)(0x5A05833D)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="523" -DSTM32F10X_MD -D__USE_LCD-o .\flash\api_can.o --omf_browse .\flash\api_can.crf --depend .\flash\api_can.d)
+I (API_CAN.h)(0x5A057E2B)
+I (CAN.h)(0x559D2916)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x559D2740)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x559D2740)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F65B18)
+I (LCD.h)(0x559D2916)
+F (.\test.c)(0x5A057EDE)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="523" -DSTM32F10X_MD -D__USE_LCD-o .\flash\test.o --omf_browse .\flash\test.crf --depend .\flash\test.d)
+I (API_CAN.h)(0x5A057E2B)
+I (CAN.h)(0x559D2916)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x559D2740)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x559D2740)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F65B18)
+I (LCD.h)(0x559D2916)
+F (.\Abstract.txt)(0x559D2916)()
